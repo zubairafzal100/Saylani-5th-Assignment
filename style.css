@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url("./font-family/Lato-Regular.ttf");
+}
+
+body {
+    background-color: #efefef;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 4px;
+}
+
+.container {
+    max-width: 320px;
+    min-height: 543px;
+    border: 1px solid black;
+    margin: 10% auto;
+    box-shadow: 0 0 10px grey;
+    background-color: rgb(242, 242, 242);
+}
+
+.input {
+    width: 93.9%;
+    padding: 15px 10px;
+    font-size: 25px;
+    text-align: right;
+    border: none;
+    background-color: rgb(242, 242, 242);
+}
+
+.btn-div {
+    margin-top: 10px;
+}
+
+.sup {
+    font-size: 12px;
+    position: relative;
+    bottom: 12px;
+    right: 5px;
+}
+
+.sup-1 {
+    font-size: 14px;
+    position: relative;
+    bottom: 10px;
+}
+
+.special-btn {
+    border-top: .5px solid lightgrey;
+    margin-bottom: -1px;
+}
+
+.bg-color {
+    background-color: rgb(242, 242, 242);
+}
+
+button {
+    width: 25%;
+    height: 60px;
+    border: none;
+    font-weight: lighter;
+    font-size: 20px;
+    background-color: rgb(230, 230, 230);
+}
+
+button:hover {
+    background-color: lightgrey;
+}
+
+.ml-0 {
+    margin-left: -4px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.x {
+    position: relative;
+    top: 6px;
+    right: 4px;
+}
+
+.pl {
+    padding-left: 20px;
+}
+
+.equal:hover {
+    background-color: black;
+}

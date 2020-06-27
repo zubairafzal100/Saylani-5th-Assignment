@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-div">
+            <h1>Calculator App</h1>
+            <h2>Made by Zubair</h2>
+            <input id="input" maxlength="21" class="input" type="text">
+        </div>
+        <div class="btn-div">
+            <div class="special-btn">
+                <button class="bg-color" onclick="percentageBtn()">%</button>
+                <button class="ml-0 bg-color" onclick="squareRoot('Invalid Input')"><img width="18px" src="./Icons/square root.png" alt="Square Root Icon"></button>
+                <button class="ml-0 bg-color" onclick="squareBtn()"><img width="20px" src="./Icons/x icon.png" alt="X-Icon"><span class="sup">2</span></button>
+                <button class="ml-0 bg-color pl" onclick="divideByOne()"><span class="sup-1">1</span>/<img class="x" width="20px" src="./Icons/x icon.png" alt="X-Icon"></button>
+            </div>
+            <div>
+                <button onclick="piValue()"><img width="14px" src="./Icons/pi.png" alt="Pi Icon"></button>
+                <button class="ml-0" onclick="clearInput()">C</button>
+                <button class="ml-0" onclick="removeItem()"><img width="20px" src="./Icons/close.png" alt="Close Icon"></button>
+                <button class="ml-0" onclick="addItems('/')"><img width="18px" src="./Icons/divide.png" alt="Divide Icon"></button>
+            </div>
+            <div>
+                <button class="bold" onclick="addItems('7')">7</button>
+                <button class="ml-0 bold" onclick="addItems('8')">8</button>
+                <button class="ml-0 bold" onclick="addItems('9')">9</button>
+                <button class="ml-0" onclick="addItems('*')"><img width="14px" src="./Icons/multiply.png" alt="Multiply Icon"></button>
+            </div>
+            <div>
+                <button class="bold" onclick="addItems('4')">4</button>
+                <button class="ml-0 bold" onclick="addItems('5')">5</button>
+                <button class="ml-0 bold" onclick="addItems('6')">6</button>
+                <button class="ml-0" onclick="addItems('-')"><span class="minus-btn"><img width="14px" src="./Icons/minus.png" alt="Minus Icon"></span></button>
+            </div>
+            <div>
+                <button class="bold" onclick="addItems('1')">1</button>
+                <button class="ml-0 bold" onclick="addItems('2')">2</button>
+                <button class="ml-0 bold" onclick="addItems('3')">3</button>
+                <button class="ml-0" onclick="addItems('+')"><img width="14px" src="./Icons/plus.png" alt="Plus Icon"></button>
+            </div>
+            <div>
+                <button onclick="plusMinus()"><img width="20px" src="./Icons/plus minus.png" alt="Plus Minus Icon"></span></button>
+                <button class="ml-0  bold" onclick="addItems('0')">0</button>
+                <button class="ml-0  bold" onclick="addItems('.')">.</button>
+                <button id="btn" class="ml-0 equal" onclick="finalResult()"><img width="20px" src="./Icons/equal.png" alt="Equal Icon"></button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

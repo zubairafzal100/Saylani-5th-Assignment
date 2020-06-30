@@ -14,14 +14,14 @@ function piValue() {
     input.value += "+" + Pi;
 }
 
-function finalResult() {
+function finalResult(num) {
     var input = document.getElementById("input")
     input.value = eval(input.value);
 }
 
 function percentageBtn() {
     var input = document.getElementById("input");
-    input.value = input.value / 100 * 5;
+    input.value = input.value * (input.value / 100);
 }
 
 function squareBtn() {
